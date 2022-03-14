@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calc_1217_v.5.exe" version="1.0.0.10" publicKeyToken="46c0c5f182c2d759" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tools_pencil_ruler_edit_icon_187081.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calc_1217_v.5" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calc_1217_v.5.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calc_1217_v.5.exe" size="1425384">
+      <assemblyIdentity name="Calc_1217_v.5" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3zBfFE6CckhvR7I7xpz+xEcp0yrUWybc+fuPY1foclc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Calc_1217_v.5.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YyXx11OQ8Y9qQaMsAPfgWQIUIJMPT4Sw3i2UQTU2sRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tools_pencil_ruler_edit_icon_187081.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tS/ltCBGrqldr/fOZcl5pvkFTwKplVr2b3CsBnOlsg8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-JJ06G1O\Sergey" issuerKeyHash="4dc082419741b5065a1a5266f706c6c6ea0b2080" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BxaZjGfX9SFqxBkpQEFhrPLinDyF0MUcclLqYDXJI/g=</DigestValue></Reference></SignedInfo><SignatureValue>Ip3EM7llhfeJK4zavF6f43+53mZZsK1+UhEeThixZwCxsnwJ6lO8ERW1fHaV//DH6io0DC67eFKHQpHQNYVA1jIYNHGzACeXyDQqioFIWjxN6ipMbQDXXjpfY0bInKVME2BWEesP9p8XlElmVbBr8WkzP5wTsTZZtp3lu12CDQ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uoGg9Da3HBCeefueCdobJUX2cPLKFnb5UWE4g/V3vxe6qcxdlym5UC7PUa767Cnxgdd6VF6Am2eVXLMJPq+USh6wbcJJj4YdPiJ5gV0WDvfTtm1j44z+SdhUVdFj/AMP1XsIEyiK/a4ZLkOFq9+bw/PN6ZDBH9pZ06xLsy+pK8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f823c93560ea52721cc5d0853c9ce2f2ac6141402919c46a21f5d7678c991607" Description="" Url=""><as:assemblyIdentity name="Calc_1217_v.5.exe" version="1.0.0.10" publicKeyToken="46c0c5f182c2d759" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-JJ06G1O\Sergey</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rMYhwTi7Cf/MKqm/RIaikeSygcZrYXWzfkRvBdA3Fmw=</DigestValue></Reference></SignedInfo><SignatureValue>ZtbRuoCG9sxu20sCOq/CCW5edQ6xFUVhSFkntT694BsN8/jouii53D3qqJejAXK5Gcz9IsE6bULQtOkyHzXf6Myje/l6PepwnhqIyDCQlaa0ynYePEtsm5cU8tJOsSbq+hlu1V4ZJkxeanrlwPRMVuwklEyYV5I/Cr5GDqGGnaQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uoGg9Da3HBCeefueCdobJUX2cPLKFnb5UWE4g/V3vxe6qcxdlym5UC7PUa767Cnxgdd6VF6Am2eVXLMJPq+USh6wbcJJj4YdPiJ5gV0WDvfTtm1j44z+SdhUVdFj/AMP1XsIEyiK/a4ZLkOFq9+bw/PN6ZDBH9pZ06xLsy+pK8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQcucmn2chXJ9BDnSluxXzdTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEoASgAwADYARwAxAE8AXABTAGUAcgBnAGUAeTAeFw0yMjAyMDIxODQ3MDBaFw0yMzAyMDMwMDQ3MDBaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ASgBKADAANgBHADEATwBcAFMAZQByAGcAZQB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6gaD0NrccEJ55+54J2hslRfZw8soWdvlRYTiD9Xe/F7qpzF2XKblQLs9RrvrsKfGB13pUXoCbZ5Vcswk+r5RKHrBtwkmPhh0+InmBXRYO99O2bWPjjP5J2FRV0WP8Aw/VewgTKIr9rhkuQ4Wr35vD883pkMEf2lnTrEuzL6kryQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAILpL6oOvcTwT1+LkPC2SvHhuVY10E84yD6/pBv37NtOQGPTuD0iHu9xmmFD5a+VBE/h87G9HS3LL29tNQ4P3ybujyqNqu559P8XBG0rkOFRWth1nCvIGrLoe0LRwKaszkxdG+zig/rRpCXcpYVlWxfuyv0qKeXo9B/zOasyL+KY</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
