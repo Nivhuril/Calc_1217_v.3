@@ -149,7 +149,7 @@ namespace CalcGCS_1217
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(944, 502);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(955, 502);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
             // tableLayoutPanel2
@@ -455,7 +455,7 @@ namespace CalcGCS_1217
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(956, 532);
+            this.tabControl1.Size = new System.Drawing.Size(967, 532);
             this.tabControl1.TabIndex = 5;
             // 
             // tabPage1
@@ -465,9 +465,9 @@ namespace CalcGCS_1217
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(948, 506);
+            this.tabPage1.Size = new System.Drawing.Size(959, 506);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Расчет";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -491,7 +491,7 @@ namespace CalcGCS_1217
             this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage2.Size = new System.Drawing.Size(948, 506);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "База данных";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label10
@@ -614,7 +614,7 @@ namespace CalcGCS_1217
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(956, 532);
+            this.ClientSize = new System.Drawing.Size(967, 532);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
